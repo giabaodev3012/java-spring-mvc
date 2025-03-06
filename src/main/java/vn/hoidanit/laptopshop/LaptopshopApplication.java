@@ -8,11 +8,13 @@ import org.springframework.context.ApplicationContext;
 public class LaptopshopApplication {
 
 	public static void main(String[] args) {
-
 		// contain
 		ApplicationContext giabao = SpringApplication.run(LaptopshopApplication.class, args);
-		for (String s : giabao.getBeanDefinitionNames()) {
-			System.out.printf(s);
-		}
+
+		/*
+		 * for (String s : giabao.getBeanDefinitionNames()) {
+		 * System.out.printf(s);
+		 * }
+		 */
 	}
 }
